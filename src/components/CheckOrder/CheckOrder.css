@@ -1,0 +1,47 @@
+.check-order {
+    margin-bottom: 0px;
+}
+
+.check-order ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .15);
+}
+
+.check-order .flex {
+    justify-content: space-between;
+}
+
+.check-order button, .check-order li {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 1.4%;
+}
+
+.check-order li+li {
+    margin-top: 15px;
+}
+
+.check-order button {
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    border: none;
+}
+
+.check-order .confirm {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 100px;
+    background-color: #50D074;
+    color: white;
+}
+
+.check-order .cancel {
+    margin-top: 15px;
+    background: transparent;
+    color: #333;
+}
